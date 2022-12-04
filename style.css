@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --blue-color: #1e4681;
+  --header-heading: 80px;
+  --heading-font-size-55: 55px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 80%;
+  max-width: 1271px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*#region start Header*/
+
+.header-logo {
+  padding-top: 21px;
+}
+
+.header-info {
+  margin-top: 97px;
+}
+
+.header-course {
+  margin-right: 25px;
+}
+
+.header-course p {
+  margin-left: 10px;
+}
+
+.header-course img {
+  object-fit: cover;
+}
+
+.header-main {
+  margin-top: 29px;
+}
+
+.header-main-text p {
+  width: 60%;
+  margin-top: 20px;
+}
+
+.header-main-image {
+  position: relative;
+  object-fit: cover;
+}
+
+.ellipse1 {
+  position: absolute;
+  z-index: -1;
+  left: 35px;
+  bottom: -16px;
+}
+
+.header-main-box {
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: var(--header-heading);
+  font-family: "Roboto Slab", serif;
+  line-height: 81.11px;
+  width: 80%;
+}
+
+.header-quote {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  background-color: var(--blue-color);
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  width: 40%;
+  padding: 19.26px 60.03px 19.26px 26.03px;
+  font-size: 25px;
+}
+
+.header-quote {
+  margin-top: 39.17px;
+  font-weight: 400;
+}
+
+.header-quote p {
+  font-size: 20px;
+  text-align: right;
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+  .header-main-box {
+    flex-direction: column;
+  }
+
+  .header-course p {
+    font-size: 10px;
+  }
+}
+
+/*#endregion  Header */
+
+/*#region About */
+
+.h2 {
+  padding-top: 90px;
+  padding-bottom: 55px;
+  font-size: 55px;
+}
+
+.about {
+  width: 100vw;
+}
+
+.about-text {
+  display: flex;
+  align-items: center;
+}
+
+.about-image {
+  position: relative;
+}
+
+.ellipse {
+  position: absolute;
+  z-index: -1;
+  left: -30px;
+  bottom: -24px;
+}
+
+.about-paragraphs {
+  width: 50%;
+  margin-right: 164px;
+}
+
+.about-paragraphs p:first-child {
+  margin-bottom: 20px;
+}
+
+.about-image {
+  object-fit: cover;
+}
+
+.about-info {
+  margin-top: 94px;
+}
+
+.about-info,
+.about-info-box {
+  display: flex;
+  align-items: center;
+}
+
+.about-info-box {
+  width: 60%;
+}
+
+.about-info-img {
+  position: relative;
+  margin-right: 132px;
+}
+
+.ellipse2 {
+  position: absolute;
+  z-index: -1;
+  left: 31px;
+  bottom: -12px;
+}
+
+.about-info-item:not(:last-child) {
+  margin-right: 95px;
+}
+
+.about-info-item p {
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.about-info-item h6 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .about-text {
+    flex-direction: column;
+  }
+
+  .about-image {
+    width: 40%;
+    margin-top: 50px;
+  }
+
+  .about-paragraphs {
+    width: 100%;
+    margin: 0;
+    line-height: 18px;
+  }
+
+  .about-paragraphs p {
+    font-size: 12px;
+  }
+
+  .about-info-img {
+    display: none;
+  }
+
+  .about-info-item h6 {
+    font-size: 12px;
+  }
+
+  .about-info-box {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+
+  .about-info-item:not(:last-child) {
+    margin-right: 39px;
+  }
+
+  .about-info-item {
+    margin-bottom: 34px;
+  }
+
+  .about-info-item p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .about-info-item {
+    margin-right: 0;
+  }
+
+  .about-info {
+    margin-top: 41px;
+  }
+}
+/* 
+@media (min-width: 992px) and (max-width: 1279px) {
+  body {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .about-info-img {
+    display: none;
+  }
+
+  .about-image {
+    width: 30%;
+  }
+
+  .about-paragraphs {
+    width: 60%;
+    margin-right: 110px;
+  }
+
+  .about-info-item:not(:last-child) {
+    margin-right: 53.4px;
+  }
+
+  .about-info-item p {
+    margin-top: 8px;
+    font-size: 11px;
+  }
+
+  .about-info-item h6 {
+    font-size: 15px;
+  }
+} */
