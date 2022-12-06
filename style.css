@@ -571,6 +571,7 @@ h2 {
   .format-info h5 {
     font-size: 15px;
   }
+
 }
 /*  =================================SASHA==============================================================*/
 .programm-title{
@@ -741,3 +742,29 @@ justify-content: center;
     align-items: center;
   }
 }
+
+
+  .format-info p {
+    font-size: 11px;
+    line-height: 14.3px;
+  }
+
+  .learn-about {
+    font-size: 32px;
+    line-height: 32.44px;
+    margin-top: 103.55px;
+  }
+
+  .learn-about-list {
+    width: 45%;
+   
+  }
+
+  .learn-about-item {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+/*#endregion*/
+
