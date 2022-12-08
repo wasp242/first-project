@@ -768,7 +768,186 @@ justify-content: center;
 
 /*#endregion*/
 
-/* Aydin bura elave edersen)))*/
+.footer {
+  padding-bottom: 111px;
+  width: 100%;
+  height: 1170px;
+  
+     
+}
+.first-block{
+  
+  padding: 185px 0;
+ 
+  background-color: #9DC9C8;
+
+}
+.footer-main-text{
+  display: flex;
+  font-size: 18px;
+  
+  
+}
+
+.footer-first-text{
+  padding-right: 60px;
+}
+.second-block{
+  
+  margin: auto;
+  background-color: black;
+}
+
+.phone-number{
+  color: white;
+}
+.email-address{
+  color: white;
+  padding-top: 10px;
+}
+.sinc-commercial{
+  display: flex;
+  flex-direction: column;
+}
+.logos-footer{
+  width: 33px;
+  height: 33px;
+}
+.sincronization{
+  width: 115px;
+  height: 68px;
+}
+.sinc-phone-mail{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 30px;
+ 
+  
+}
+.course-header{
+  padding-top: 91px;
+  padding-bottom: 72px;
+  font-family:'Roboto Slab';
+  font-weight: 700;
+    
+}
+.footer-header4{
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 25px;
+  
+  
+}
+.footer-value{
+font-size: 25px;
+margin-bottom: 5px;
+}
+.footer-cost{
+  font-size: 80px;
+  margin-bottom: 70px;
+}
+.logos-footer{
+  margin-left: 20px;
+}
+.phone-mail{
+font-size: 25px;
+
+}
+.footer-icon-1, .footer-icon-2{
+  margin-right: 20px;
+ 
+}
+.ending{
+  color: white;
+  margin-top: 10%;
+  padding-bottom: 20px;
+}
+@media (min-width: 992px) and (max-width: 1279px){
+  .course-header{
+    font-size: 32px;
+  }
+  .footer-value{
+font-size: 14px;
+margin-bottom: 17.38px;
+  }
+  .footer-cost{
+    font-size: 46px;
+
+  }
+  .footer-header4 {
+    font-size: 14px;
+  }
+  .footer-first-text p , .footer-second-text p{
+    font-size: 10px;
+  }
+  .first-block {
+    padding-top: 103.67px ;
+    padding-bottom: 107.15px;
+  }
+  .sincronization{
+    width: 66.60px;
+    height: 39.38px;
+  }
+  .footer-icon-1 , .footer-icon-2{
+    width: 15.64px;
+    height: 15.64px;
+  }
+  .phone-number , .email-address {
+    font-size: 14px;
+  }
+  .logos-footer , .logos-footer-1{
+    width: 19px;
+    height: 19px;
+  }
+
+  .ending {
+    font-size: 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 991px){
+  .course-header{
+    font-size: 26px;
+  }
+  .footer-value{
+font-size: 12px;
+margin-bottom: 13.98px;
+  }
+  .footer-cost{
+    font-size: 37px;
+
+  }
+  .footer-header4 {
+    font-size: 12px;
+  }
+  .footer-first-text p , .footer-second-text p{
+    font-size: 10px;
+  }
+  .first-block {
+    padding-top: 62px ;
+    padding-bottom: 72.46px;
+  }
+  .sincronization{
+    width: 53.59px;
+    height: 31.69px;
+  }
+  .footer-icon-1 , .footer-icon-2{
+    width: 12.58px;
+    height: 12.58px;
+  }
+  .phone-number , .email-address {
+    font-size: 12px;
+  }
+  .logos-footer , .logos-footer-1{
+    width: 15.38px;
+    height: 15.38px;
+  }
+
+  .ending {
+    font-size: 10px;
+  }
+}
+
 
 
 
