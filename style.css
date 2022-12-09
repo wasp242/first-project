@@ -67,12 +67,6 @@ body {
   object-fit: cover;
 }
 
-.ellipse1 {
-  position: absolute;
-  z-index: -1;
-  left: 35px;
-  bottom: -16px;
-}
 
 .header-main-box {
   align-items: flex-start;
@@ -87,19 +81,13 @@ body {
 }
 
 .header-quote {
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%);
+  margin: auto;
   background-color: var(--blue-color);
   color: #fff;
   font-family: "Roboto Slab", serif;
   width: 40%;
   padding: 19.26px 60.03px 19.26px 26.03px;
   font-size: 25px;
-}
-
-.header-quote {
   margin-top: 39.17px;
   font-weight: 400;
 }
@@ -152,12 +140,6 @@ body {
     height: 175.1px;
   }
 
-  .ellipse1 {
-    width: 127.68px;
-    height: 19.1px;
-    left: 18px;
-    bottom: -4px;
-  }
 
   .header-main-box {
     flex-direction: column;
@@ -195,7 +177,6 @@ body {
     width: 225.36px;
     height: 93.19px;
     font-size: 11px;
-    left: 40%;
   }
 
   .header-quote p {
@@ -259,17 +240,12 @@ body {
   .header-quote {
     font-size: 14px;
     width: 45%;
-    left: 39%;
   }
 
   .header-quote p {
     font-size: 12px;
   }
 
-  .ellipse1 {
-    left: 15px;
-    bottom: -12px;
-  }
 }
 
 /*#endregion  Header */
@@ -295,12 +271,7 @@ body {
   position: relative;
 }
 
-.ellipse {
-  position: absolute;
-  z-index: -1;
-  left: -30px;
-  bottom: -24px;
-}
+
 
 .about-paragraphs {
   width: 50%;
